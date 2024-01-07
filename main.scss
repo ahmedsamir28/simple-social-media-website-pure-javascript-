@@ -1,0 +1,114 @@
+
+
+main{
+    background-color:rgb(147, 189, 255);
+    .container{
+        max-width: 960px;
+    }
+    .cards{
+        margin-top: 0px;
+        .cart{
+            background-color: white;
+        }
+        .head{
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            background-color: rgb(243, 243, 243);
+            border-bottom: 1px rgb(132, 132, 132) solid;
+            .user{
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }  
+            .end{
+                margin-right: 20px;
+            }         
+            .image-1{
+            width: 50px;
+            height: 50px;
+            border-radius:  50% ;
+            margin: {
+                top: 5px;
+                bottom: 5px;
+                left: 15px;
+            }
+            }
+            h6{
+                margin-left: 10px;
+                text-transform: capitalize;
+            }
+        }
+        .content{
+            margin: 15px;
+            .post{
+                margin-top: 10px;
+                h6{
+                    font-size: 15px;
+                    color: rgb(140, 140, 140);
+                }
+                h5{
+                    text-transform: capitalize;
+                }
+            }
+            .comments{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                padding-bottom: 15px;
+                i{
+                    margin-right: 5px;
+                }
+                h6{
+                    font-weight: 400;
+                    margin-right: 50px;
+                    span{
+                        margin-right: 5px;
+                    }
+                }
+                span{
+                    margin-right: 5px;
+                }
+                }
+                
+        }
+        
+    }
+    .content{
+        .image-2{
+            width: 100%;
+        }
+    }
+}
+
+#add-btn{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    height: 60px;
+    width: 60px;
+    font-size: 40px;
+    color: white;
+    border-radius: 100px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+}
+
+.number-info{
+    font-weight: 100;
+    color: rgb(172, 172, 172);
+
+    span{
+        font-size: 50px;
+        color: rgb(117, 117, 117);
+        margin-right: 5px;
+
+    }
+}
+
+.user-main-info{
+    font-weight: 500;
+}
+
